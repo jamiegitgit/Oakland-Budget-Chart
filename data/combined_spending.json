@@ -1,0 +1,158 @@
+[
+ {
+   "Category Type": "Department Name",
+   "Label": "Police Department",
+   "value (in dollars)": "$274,271,164.00",
+   "value in millions of dollars": 274
+ },
+ {
+   "Category Type": "Department Name",
+   "Label": "Fire Department",
+   "value (in dollars)": "$139,088,100.00",
+   "value in millions of dollars": 139
+ },
+ {
+   "Category Type": "Department Name",
+   "Label": "Oakland Public Works",
+   "value (in dollars)": "$135,869,465.00",
+   "value in millions of dollars": 136
+ },
+ {
+   "Category Type": "Spending Category",
+   "Label": "Sworn  Salaries",
+   "value (in dollars)": "$97,166,140.00",
+   "value in millions of dollars": 97
+ },
+ {
+   "Category Type": "Department Name",
+   "Label": "Human Services",
+   "value (in dollars)": "$79,283,322.00",
+   "value in millions of dollars": 79
+ },
+ {
+   "Category Type": "Department Name",
+   "Label": "Capital Improvement Projects",
+   "value (in dollars)": "$54,040,456.00",
+   "value in millions of dollars": 54
+ },
+ {
+   "Category Type": "Department Name",
+   "Label": "Transportation",
+   "value (in dollars)": "$47,121,988.00",
+   "value in millions of dollars": 47
+ },
+ {
+   "Category Type": "Department Name",
+   "Label": "Finance Department",
+   "value (in dollars)": "$40,908,433.00",
+   "value in millions of dollars": 41
+ },
+ {
+   "Category Type": "Spending Category",
+   "Label": "Sworn Retirement",
+   "value (in dollars)": "$34,708,039.00",
+   "value in millions of dollars": 35
+ },
+ {
+   "Category Type": "Department Name",
+   "Label": "Planning & Building",
+   "value (in dollars)": "$34,220,121.00",
+   "value in millions of dollars": 34
+ },
+ {
+   "Category Type": "Department Name",
+   "Label": "Information Technology",
+   "value (in dollars)": "$32,799,498.00",
+   "value in millions of dollars": 33
+ },
+ {
+   "Category Type": "Spending Category",
+   "Label": "Sworn Fringe Benefits",
+   "value (in dollars)": "$32,107,862.00",
+   "value in millions of dollars": 32
+ },
+ {
+   "Category Type": "Department Name",
+   "Label": "Oakland Public Library",
+   "value (in dollars)": "$31,464,606.00",
+   "value in millions of dollars": 31
+ },
+ {
+   "Category Type": "Department Name",
+   "Label": "Oakland Parks & Recreation",
+   "value (in dollars)": "$29,189,614.00",
+   "value in millions of dollars": 29
+ },
+ {
+   "Category Type": "Department Name",
+   "Label": "Economic & Workforce Development",
+   "value (in dollars)": "$27,360,395.00",
+   "value in millions of dollars": 27
+ },
+ {
+   "Category Type": "Spending Category",
+   "Label": "Civilian Salaries",
+   "value (in dollars)": "$26,022,910.00",
+   "value in millions of dollars": 26
+ },
+ {
+   "Category Type": "Spending Category",
+   "Label": "Internal Services & Work Orders",
+   "value (in dollars)": "$25,180,378.00",
+   "value in millions of dollars": 25
+ },
+ {
+   "Category Type": "Department Name",
+   "Label": "Housing & Community Development",
+   "value (in dollars)": "$16,917,098.00",
+   "value in millions of dollars": 17
+ },
+ {
+   "Category Type": "Spending Category",
+   "Label": "Sworn Overtime",
+   "value (in dollars)": "$11,759,330.00",
+   "value in millions of dollars": 12
+ },
+ {
+   "Category Type": "Spending Category",
+   "Label": "Contract Services",
+   "value (in dollars)": "$10,756,485.00",
+   "value in millions of dollars": 11,
+   "forget": true
+ },
+ {
+   "Category Type": "Spending Category",
+   "Label": "Civilian Retirement",
+   "value (in dollars)": "$9,264,179.00",
+   "value in millions of dollars": 9,
+   "forget": true
+ },
+ {
+   "Category Type": "Spending Category",
+   "Label": "Civilian Fringe Benefits",
+   "value (in dollars)": "$8,995,090.00",
+   "value in millions of dollars": 9,
+   "forget": true
+ },
+ {
+   "Category Type": "Spending Category",
+   "Label": "Allowances & Premiums",
+   "value (in dollars)": "$8,750,437.00",
+   "value in millions of dollars": 9,
+   "forget": true
+ },
+ {
+   "Category Type": "Spending Category",
+   "Label": "Services & Supplies",
+   "value (in dollars)": "$8,527,492.00",
+   "value in millions of dollars": 9,
+   "forget": true
+ },
+ {
+   "Category Type": "Spending Category",
+   "Label": "Other",
+   "value (in dollars)": "$3,360,606.00",
+   "value in millions of dollars": 3,
+   "forget": true
+ }
+]

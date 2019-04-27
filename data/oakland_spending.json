@@ -1,0 +1,102 @@
+[
+ {
+   "Department Name": "Mayor",
+   "value (in dollars)": 3294240,
+   "value in millions of dollars": "$3.29"
+ },
+ {
+   "Department Name": "City Clerk",
+   "value (in dollars)": 4291175,
+   "value in millions of dollars": "$4.29"
+ },
+ {
+   "Department Name": "City Council",
+   "value (in dollars)": 4817421,
+   "value in millions of dollars": "$4.82"
+ },
+ {
+   "Department Name": "Human Resources Management Department",
+   "value (in dollars)": 8270054,
+   "value in millions of dollars": "$8.27"
+ },
+ {
+   "Department Name": "Housing & Community Development",
+   "value (in dollars)": 16917098,
+   "value in millions of dollars": "$16.92"
+ },
+ {
+   "Department Name": "City Attorney",
+   "value (in dollars)": 16942054,
+   "value in millions of dollars": "$16.94"
+ },
+ {
+   "Department Name": "City Administrator",
+   "value (in dollars)": 17889752,
+   "value in millions of dollars": "$17.89"
+ },
+ {
+   "Department Name": "Economic & Workforce Development",
+   "value (in dollars)": 27360395,
+   "value in millions of dollars": "$27.36"
+ },
+ {
+   "Department Name": "Oakland Parks & Recreation",
+   "value (in dollars)": 29189614,
+   "value in millions of dollars": "$29.19"
+ },
+ {
+   "Department Name": "Oakland Public Library",
+   "value (in dollars)": 31464606,
+   "value in millions of dollars": "$31.46"
+ },
+ {
+   "Department Name": "Information Technology",
+   "value (in dollars)": 32799498,
+   "value in millions of dollars": "$32.80"
+ },
+ {
+   "Department Name": "Planning & Building",
+   "value (in dollars)": 34220121,
+   "value in millions of dollars": "$34.22"
+ },
+ {
+   "Department Name": "Finance Department",
+   "value (in dollars)": 40908433,
+   "value in millions of dollars": "$40.91"
+ },
+ {
+   "Department Name": "Transportation",
+   "value (in dollars)": 47121988,
+   "value in millions of dollars": "$47.12"
+ },
+ {
+   "Department Name": "Capital Improvement Projects",
+   "value (in dollars)": 54040456,
+   "value in millions of dollars": "$54.04"
+ },
+ {
+   "Department Name": "Human Services",
+   "value (in dollars)": 79283322,
+   "value in millions of dollars": "$79.28"
+ },
+ {
+   "Department Name": "Oakland Public Works",
+   "value (in dollars)": 135869465,
+   "value in millions of dollars": "$135.87"
+ },
+ {
+   "Department Name": "Fire Department",
+   "value (in dollars)": 139088100,
+   "value in millions of dollars": "$139.09"
+ },
+ {
+   "Department Name": "Police Department",
+   "value (in dollars)": 274271164,
+   "value in millions of dollars": "$274.27"
+ },
+ {
+   "Department Name": "Grand Sum",
+   "value (in dollars)": 1331563727,
+   "value in millions of dollars": "$1,331.56"
+ }
+]

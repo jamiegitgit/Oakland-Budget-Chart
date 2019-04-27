@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Oakland City Budget</title>
+    <link href="https://fonts.googleapis.com/css?family=Barlow:700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/site.css">
+    
+  </head>
+  <body>
+    <div class="page">
+        
+        <div class="chart-title">
+            <h1> Oakland City Budget</h1>
+        </div>
+        
+        <div class="chart-body">
+            <div class="chart-y-axis">
+                <h2> Millions of Dollars </h2>
+            </div>
+            <div class="chart-center">
+
+            </div>
+            <div class="chart-x-axis">
+                <h2 class="chart-x-axis-heading">Spending Category</h2>
+            </div>
+        </div>
+        <div class="inputs">
+            <button class="inputs-button" id="oakland" onClick="toggleSelected(this.id)">Oakland City Budget</button>
+            <button class="inputs-button inputs-button-selected" id="police" onClick="toggleSelected(this.id)">Police Budget Only</button>
+            <button class="inputs-button" id="compare" onClick="toggleSelected(this.id)">Compare</button>
+        </div>
+     </div>
+        <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,185 @@
+body {
+    background-color: #DADDD8;
+}
+
+.page {
+    display: grid;
+    grid-template-columns: 1fr 760px 1fr;
+    grid-template-rows: 10% 10% 580px 10%;
+    font-family: 'Barlow', sans-serif;
+    --column-num: 12;
+}
+
+
+.chart-title {
+    grid-row: 2;
+    background-color: #206A2F;
+/*    background: linear-gradient(0deg, rgba(4,40,11,1) 0%, rgba(32,106,47,1) 80%, rgba(138,218,144,1) 100%);*/
+    grid-column: 2;
+    justify-self: stretch;
+    text-align: center;
+    align-self: center;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.chart-title:hover {
+    width:100%; /*Make sure the animation is over the whole element*/
+    -webkit-animation-name: ShineAnimation;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(.12,.89,.98,.47);
+}
+
+.chart-body{
+    grid-row: 3;
+    grid-column: 2;
+    background-color: #78A753;
+    display: grid;
+    grid-template-columns: 10% 1fr;
+    grid-template-rows: 1fr 45%;
+    border-radius: 0 0 10px 10px;
+	-moz-box-shadow:inset 0px 0px 8px 1px #155722;
+	-webkit-box-shadow:inset 0px 0px 8px 1px #155722;
+	box-shadow:inset 0px 0px 8px 1px #155722;
+	border:1px solid #206a2f;
+	text-shadow:0px 1px 0px #145220;
+}
+
+.chart-y-axis {
+    writing-mode: vertical-lr;
+    grid-column: 1;
+	justify-self: stretch;
+	text-align: center;
+}
+
+.chart-x-axis {
+    grid-row: 2;
+    grid-column: 2;
+    text-align: center;
+    margin: 2px;
+}
+
+.chart-category {
+    writing-mode: vertical-rl;
+    text-align: left;
+    line-height: 1;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-self: center;
+}
+
+.chart-center {
+    border: 1px solid #000000;
+    margin: 2px;
+    display: grid;
+    width: 680px;
+    grid-template-columns: repeat(var(--column-num), 1fr);
+    text-align: center;
+    background-color: #C7D59F;
+}
+
+.chart-x-axis {
+    display: grid;
+    width: 680px;
+    grid-template-rows: 70% 30%;
+    grid-template-columns: repeat(var(--column-num), 1fr);
+}
+
+.chart-x-axis-heading{
+    grid-row: 2;
+    grid-column: 1 / -1;
+    align-self: center;
+}
+
+.chart-center-bar {
+    align-self: end; 
+    background-color: #c3e552; 
+    background: linear-gradient(90deg, rgba(210,231,142,1) 0%, rgba(195,229,82,1) 25%, rgba(167,195,72,1) 100%); 
+    margin: 0 1px;
+    padding-top: 5%; 
+    border: 1px solid black;
+    border-radius: 5px 5px 0 0;
+}
+
+.chart-center-bar-police {
+/*    background: #84D6FF;*/
+/*    rgb(132, 214, 255)*/
+    background: linear-gradient(90deg, rgba(147,216,255,1) 0%, rgb(132, 214, 255, 1) 25%, rgba(105,185,245,1) 100%); 
+}
+
+.inputs {
+    grid-row: 4;
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+
+.inputs-button {
+	-moz-box-shadow:inset 0px 0px 8px 1px #155722;
+	-webkit-box-shadow:inset 0px 0px 8px 1px #155722;
+	box-shadow:inset 0px 0px 8px 1px #155722;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #206a2f), color-stop(1, #77a753));
+	background:-moz-linear-gradient(top, #206a2f 5%, #77a753 100%);
+	background:-webkit-linear-gradient(top, #206a2f 5%, #77a753 100%);
+	background:-o-linear-gradient(top, #206a2f 5%, #77a753 100%);
+	background:-ms-linear-gradient(top, #206a2f 5%, #77a753 100%);
+	background:linear-gradient(to bottom, #206a2f 5%, #77a753 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#206a2f', endColorstr='#77a753',GradientType=0);
+	background-color:#206a2f;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
+	border:1px solid #206a2f;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-size:21px;
+	padding:6px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #145220;
+}
+
+.inputs-button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77a753), color-stop(1, #206a2f));
+	background:-moz-linear-gradient(top, #77a753 5%, #206a2f 100%);
+	background:-webkit-linear-gradient(top, #77a753 5%, #206a2f 100%);
+	background:-o-linear-gradient(top, #77a753 5%, #206a2f 100%);
+	background:-ms-linear-gradient(top, #77a753 5%, #206a2f 100%);
+	background:linear-gradient(to bottom, #77a753 5%, #206a2f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77a753', endColorstr='#206a2f',GradientType=0);
+	background-color:#77a753;
+}
+
+.inputs-button-selected {
+    background: #4f5e52;
+}
+
+.inputs-button-selected:hover {
+    background: #4f5e52;
+}
+
+/* from https://patrickdesjardins.com/blog/css3-shining-animation-for-html-element */
+@-webkit-keyframes ShineAnimation{
+    from {
+        background-repeat:no-repeat;
+        background-image:-webkit-linear-gradient(
+            top left,
+            rgba(255, 255, 255, 0.0) 0%,
+            rgba(255, 255, 255, 0.0) 39%,
+            rgba(255, 255, 255, 0.3) 45%,
+            rgba(255, 255, 255, 0.5) 50%,
+            rgba(255, 255, 255, 0.3) 57%,
+            rgba(255, 255, 255, 0.0) 63%,
+            rgba(255, 255, 255, 0.0) 100%
+        );
+        background-position:-600px -250px;
+        background-size: 800px 600px
+    }
+    to {
+        background-repeat:no-repeat;
+        background-position:1000px 250px;
+    }
+}
+
